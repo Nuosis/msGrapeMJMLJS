@@ -1,7 +1,12 @@
-//Here we're importing items we'll need. You can add other imports here.
+import 'grapesjs/dist/css/grapes.min.css'
+import grapesJS from 'grapesjs'
+import grapesJSMJML from 'grapesjs-mjml'
 
-//The first function. Remove this.
-const btn = document.querySelector("button");
-btn.onclick = function () {
-  alert("You ran some JavaScript");
-};
+grapesJS.init({
+   fromElement: true,
+   container: '#gjs',
+   plugins: [grapesJSMJML],
+   pluginsOpts: {
+      [grapesJSMJML]: {/* ...options */}
+   },
+});

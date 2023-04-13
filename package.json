@@ -19,5 +19,10 @@
     "open": "^8.2.1",
     "parcel": "^2.8.1",
     "prettier": "2.6.2"
+  },
+  "dependencies": {
+    "grapesjs": "^0.21.1",
+    "grapesjs-cli": "^4.0.1",
+    "grapesjs-mjml": "^1.0.4"
   }
 }
